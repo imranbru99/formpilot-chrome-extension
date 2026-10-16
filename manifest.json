@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "FormPilot",
+  "version": "2.1.0",
+  "description": "Smart auto-fill for any form — random clicks, sentence text, auto-stop on verification.",
+  "permissions": ["scripting", "tabs", "sidePanel", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open FormPilot"
+  }
+}
